@@ -1,41 +1,20 @@
-# Nuxt Minimal Starter
+## Included Setup
 
-This is a minimal Nuxt 3 starter template. It includes the essential configuration and dependencies to get you up and running quickly with Nuxt 3.
+- Nuxt 4
+- Tailwind CSS
+- DaisyUI
+- ESLint (Antfu config)
+- Nuxt Icon
 
-## Setup
+## Folder Structure
 
-Make sure to install dependencies:
+- app/
+- components/
+- pages/
+- layouts/
+- composables/
+- stores/
 
-```bash
-# npm
-npm install
+## Usage
 
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-```
+Use this as a base for new projects via GitHub template.

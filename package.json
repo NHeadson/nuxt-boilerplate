@@ -1,5 +1,5 @@
 {
-  "name": "portfolio_site",
+  "name": "nuxt-boilerplate",
   "type": "module",
   "private": true,
   "scripts": {
@@ -9,8 +9,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "prepare": "husky"
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@nuxt/eslint": "^1.15.2",
@@ -25,11 +24,6 @@
     "@antfu/eslint-config": "^8.2.0",
     "daisyui": "^5.5.19",
     "eslint": "^10.2.0",
-    "eslint-plugin-format": "^2.0.1",
-    "husky": "^9.1.7",
-    "lint-staged": "^16.4.0"
-  },
-  "lint-staged": {
-    "*": "npm run lint"
+    "eslint-plugin-format": "^2.0.1"
   }
 }
